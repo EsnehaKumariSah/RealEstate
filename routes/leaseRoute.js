@@ -1,5 +1,5 @@
 import express from 'express';
-import { createLease, getAllLease, getLeaseById, updateLease, deleteLease } from "../controller/leaseController.js";
+import { createLease, getAllLease, getLeaseById, updateLease, deleteLease } from "../controllers/leaseController.js";
 const router = express.Router();
 // import auth, { authorizeRole } from '../config/auth.js';
 

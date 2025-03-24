@@ -1,4 +1,4 @@
-import Lease from "../models/lease";
+import Lease from "../models/Lease.js";
 
 export const createLease = async (req, res) => {//controller hai
     try {// use for  catch error

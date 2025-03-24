@@ -1,4 +1,4 @@
-import Finance from "../models/finance";
+import Finance from "../models/Finance.js";
 
 export const createFinance = async (req, res) => {//controller hai
     try {// use for  catch error

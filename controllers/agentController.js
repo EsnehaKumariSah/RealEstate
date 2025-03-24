@@ -1,4 +1,4 @@
-import Agent from "../models/agent";
+import Agent from "../models/Agent.js";
 
 export const createAgent = async (req, res) => {//controller hai
     try {// use for  catch error

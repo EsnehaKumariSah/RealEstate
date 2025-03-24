@@ -1,11 +1,11 @@
 import express from 'express';
-import { createBooking, getAllBooking, getBookingById, updateBooking, deleteBooking } from "../controller/bookingController.js";
+import { createFinance, getAllFinance, getFinanceById, updateFinance, deleteFinance } from "../controllers/financeController.js";
 const router = express.Router();
 // import auth, { authorizeRole } from '../config/auth.js';
 
-router.post("/createBooking", createBooking);
-router.get("/getAllBooking", getAllBooking);
-router.get("/getBookingById/:id", getBookingById);
-router.put("/updateBooking/:id",  updateBooking);
-router.delete("/deleteBooking/:id", deleteBooking);
+router.post("/createFinance", createFinance);
+router.get("/getAllFinance", getAllFinance);
+router.get("/getFinanceById/:id", getFinanceById);
+router.put("/updateFinance/:id",  updateFinance);
+router.delete("/deleteFinance/:id", deleteFinance);
 export default router;

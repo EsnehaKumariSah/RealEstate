@@ -1,4 +1,4 @@
-import Buyers from "../models/buyers";
+import Buyers from "../models/Buyers.js";
 
 export const createBuyers = async (req, res) => {//controller hai
     try {// use for  catch error

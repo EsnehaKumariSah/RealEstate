@@ -1,4 +1,4 @@
-import Booking from "../models/booking";
+import Booking from "../models/Booking.js";
 
 export const createBooking = async (req, res) => {//controller hai
     try {// use for  catch error

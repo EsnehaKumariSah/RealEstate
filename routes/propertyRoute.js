@@ -1,5 +1,5 @@
 import express from 'express';
-import { createProperty, getAllProperty, getPropertyById, updateProperty, deleteProperty } from "../controller/propertyController.js";
+import { createProperty, getAllProperty, getPropertyById, updateProperty, deleteProperty } from "../controllers/propertyController.js";
 const router = express.Router();
 // import auth, { authorizeRole } from '../config/auth.js';
 

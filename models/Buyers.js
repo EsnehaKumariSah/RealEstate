@@ -9,13 +9,13 @@ const buyersSchema = new Schema({
     email: {type:String},
     phone: {type:Number},
     address: {type:String},
-    Room :{type:string},
+    Room :{type:String},
     status:{type:String},
   
 
   
 }, { timestamps: true }); // Correct placement of timestamps
 
-const Buyers = model('Booking',buyersSchema);
+const Buyers = model('Buyers',buyersSchema);
 
 export default Buyers;

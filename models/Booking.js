@@ -9,10 +9,10 @@ const bookingSchema = new Schema({
     email: {type:String},
     phone: {type:Number},
     address:{type: String},
-    checkIN :{type:string},
+    checkIN :{type:String},
     checkOut:{type:String},
     status:{type:String},
-    Bstatus:{type:string},
+    Bstatus:{type:String},
   
 }, { timestamps: true }); // Correct placement of timestamps
 

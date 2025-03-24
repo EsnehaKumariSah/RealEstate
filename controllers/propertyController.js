@@ -1,4 +1,4 @@
-import Property from "../models/property";
+import Property from "../models/Property.js";
 
 export const createProperty = async (req, res) => {//controller hai
     try {// use for  catch error
